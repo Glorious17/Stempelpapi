@@ -1,0 +1,129 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, 'Lucida Sans Unicode', sans-serif;
+}
+
+a:link{
+	color:black;
+}
+
+a:visited{
+	color:black;
+}
+
+.head{
+	position:relative;
+	width:100%;
+	height: 600px;
+}
+
+.header-menue{
+	position: absolute;
+	background-color: #1a8f1d;
+	width: 100%;
+	height: 50px;
+	top: 50px;
+	z-index:2;
+}
+
+.menue-first{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right: 0px;
+}
+
+.menue-items{
+	position: absolute;
+	height: 100%;
+	left: 100px;
+	list-style: none;
+}
+
+.menue-item:hover{
+	background-color: #76bc77;
+}
+
+.menue-item{
+	position:relative;
+	display: inline-block;
+	min-width: 100px;
+	height: 100%;
+}
+
+.menue-content{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+.active:before{
+	position:absolute;
+	content:'';
+	width: 100%;
+	height: 5px;
+	bottom: 0px;
+	background-color: #de7e20;
+}
+
+.content-1{
+	position:relative;
+	width: 100%;
+	height: 400px;
+}
+
+.whoAmI-text{
+	position:absolute;
+	width:60%;
+	height: 100%;
+	left: 0;
+}
+
+.whoAmI-text-content{
+	margin-top:80px;
+	position: relative;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whoAmI-pic{
+	position:absolute;
+	width:40%;
+	height: 100%;
+	right: 0px;
+}
+
+.whoAmI-pic-content{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -150px;
+	margin-right: -150px;
+	height:300px;
+	width:300px;
+	background-image: url("../assets/Stempelpapi-Avatar.jpg");
+	background-size: cover;
+	background-position: 30% 0;
+	border: 10px solid #de7e20;
+	border-radius: 300px;
+}
+
+.titel{
+	font-weight:bold;
+	font-size:25px;
+	color: #de7e20;
+	line-height:60px;
+}
+
+#header-slider{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:600px;
+	background-image: url("../assets/karte1.jpeg");
+	background-size:cover;
+	background-position: 0 50%;
+	border-bottom: 10px solid #de7e20;
+}
